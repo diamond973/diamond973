@@ -21,6 +21,7 @@ Open to NetOps / Network Automation roles, relocation or remote.
 |---|---|
 | [panos-mcp](https://github.com/diamond973/panos-mcp) | MCP server for Palo Alto PAN-OS / Panorama. Lets an AI agent read configs, logs and sessions, and make changes only in write mode, with a backup and partial commit. |
 | [mikrotik-mcp](https://github.com/diamond973/mikrotik-mcp) | MCP server for MikroTik RouterOS over the binary API (works on v6 and v7). Read-only by default; ping, traceroute, routes, firewall, backups. |
+| [netops-evpn-lab](https://github.com/diamond973/netops-evpn-lab) | Datacenter fabric as code: BGP EVPN / VXLAN on FRR with symmetric IRB, deployed by Containerlab + Ansible from one YAML file, verified by 40 pytest checks. |
 | [pfsense-to-fortigate-migration](https://github.com/diamond973/pfsense-to-fortigate-migration) | Case study: moving a ~15-office company from pfSense to FortiGate 70G together with a datacenter move. Plan, cutover over two WANs, rollback, and the problems hit along the way. |
 
 The MCP servers are single Python files with no dependencies outside the standard library.
